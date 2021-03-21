@@ -1,9 +1,43 @@
+img {
+  width: 250px;
+}
+body {
+  text-align: center;
+  background: linear-gradient(cyan 20%,orange 50%)
+  
+}
 h1 {
-    text-align: center;
+  text-shadow: 2px 2px #212121
+}
+.line {
+  
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+.links {
+    display: inline;
+    padding: 10px;
     color: orange;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.links:hover {
+    background-color: aquamarine;
+}
+html {
+    scroll-behavior: smooth;
 }
 
-img {
-    height: 500px;
-    text-align: left;
+.menu {
+    margin-top: 0px;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    z-index: 10;
+    cursor: pointer;
+    font-family: monospace;
+    width: 100%;
 }
