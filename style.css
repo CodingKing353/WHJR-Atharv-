@@ -1,5 +1,13 @@
 img {
-  width: 250px;
+  width: 280px;
+    height: 250px;
+    transition: transform .2s;
+    border: 10px solid orange;
+    
+}
+
+img:hover {
+    transform: scale(0.9);
 }
 body {
   text-align: center;
@@ -22,6 +30,7 @@ h1 {
     color: orange;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
     
 }
 .links:hover {
@@ -43,4 +52,9 @@ html {
 }
 #Boom353 {
     width: 45px;
+    
+}
+
+#Changer1 {
+        
 }
