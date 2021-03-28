@@ -1,63 +1,25 @@
-img {
-  width: 280px;
-    height: 250px;
-    transition: transform .2s;
-    border: 10px solid orange;
-    
-}
-
-img:hover {
-    transform: scale(0.9);
-}
 body {
-  text-align: center;
-  background: linear-gradient( cyan 10%, orange 85%)
-  
-} 
+    text-align: center;
+    background-color: darkcyan;
+}
+
+
 h1 {
-  text-shadow: 2px 2px #212121
-}
-.line {
-  
-    height: 6px;
-    width: 70px;
-    background-color: black;
-    margin: 8px auto;
-}
-.links {
-    display: inline;
-    padding: 10px;
     color: orange;
-    font-size: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    
-}
-.links:hover {
-    background-color: aquamarine;
-}
-html {
-    scroll-behavior: smooth;
 }
 
-.menu {
-    margin-top: 0px;
-    position: fixed;
-    top: 0px;
-    background-color: black;
-    z-index: 10;
-    cursor: pointer;
-    font-family: monospace;
-    width: 100%;
-}
-#Boom353 {
-    width: 20px !important ;
-    height: 20px !important;
-    text-decoration: none !important;
-    border: none !important;
+
+h2 {
+    color: darkred;
+    
     
 }
-
-#Changer1 {
-        
+ 
+img {
+    width: 800px;
 }
+h3 {
+    color: orange;
+}
+
+
